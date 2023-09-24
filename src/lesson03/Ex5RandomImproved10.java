@@ -17,5 +17,6 @@ public class Ex5RandomImproved10 {
         System.out.println("nombre aléatoire: " + max * Math.random());
         System.out.println("nombre aléatoire: " + max * Math.random());
         System.out.println("nombre aléatoire: " + max * Math.random());
+        System.out.println("nombre aléatoire: " + max * Math.random());
     }
 }
