@@ -2,7 +2,7 @@ package lesson03;
 
 import java.util.Scanner;
 
-public class CylinderVolumeCalculator {
+public class Ex6CylinderVolumeCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("hauteur: ");
