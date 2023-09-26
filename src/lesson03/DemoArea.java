@@ -2,7 +2,7 @@ package lesson03;
 
 import java.util.Scanner;
 
-public class DemoCircleArea {
+public class DemoArea {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Le rayon: ");
