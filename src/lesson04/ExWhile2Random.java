@@ -2,7 +2,7 @@ package lesson04;
 
 import java.util.Scanner;
 
-public class ExWhile1Random {
+public class ExWhile2Random {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bienvenu à la recherche du nombre aléatoire");
