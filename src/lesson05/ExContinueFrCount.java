@@ -12,6 +12,6 @@ public class ExContinueFrCount {
             System.out.print("Voulez-vous continuer? ");
             next = scanner.next();
         }
-        System.out.println("Le nombre d'itération est " + count);
+        System.out.println("Le nombre d'itérations est " + count);
     }
 }
