@@ -2,7 +2,7 @@ package lesson06;
 
 import java.util.Scanner;
 
-public class DemoIfRainingScanner {
+public class ExIfRainingScanner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Pleut-il? ");
