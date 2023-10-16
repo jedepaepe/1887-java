@@ -18,10 +18,10 @@ public class ExAdditionAdvanced {
             counter++;
         }
         if (result == value1 + value2) {
-            System.out.printf("bravo");
+            System.out.print("bravo");
         }
         else {
-            System.out.printf("perdu, la réponse est " + (value1 + value2));
+            System.out.print("perdu, la réponse est " + (value1 + value2));
         }
 
     }
