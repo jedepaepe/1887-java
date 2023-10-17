@@ -25,8 +25,6 @@ public class MultiplicationTable {
                 System.out.print("Veuillez corriger: ");
             }
         }
-        if (isCorrect) {
-            System.out.println("bravo");
-        }
+        System.out.println("bravo");
     }
 }
