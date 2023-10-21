@@ -2,7 +2,7 @@ package lesson07;
 
 import java.util.Scanner;
 
-public class RevisionWhile {
+public class RevisionIfWhile {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String choice = "";
@@ -12,6 +12,9 @@ public class RevisionWhile {
             System.out.println("Tapez 3 pour éditer une tâche");
             System.out.println("Tapez Q pour quitter l'application");
             choice = scanner.nextLine();
+            if (! choice.equals("1") && ! choice.equals("2") && ! choice.equals("3") && ! choice.equals("Q")) {
+                System.out.println("Veuillez tapez soit 1, 2, 3, Q et pas " + choice);
+            }
         }
         System.out.println("merci d'avoir utiliser l'application");
     }
