@@ -40,7 +40,7 @@ public class ValidateSapNumber {
         }
         for (int i = 0; i < sapNr.length(); ++i) {
             char c = sapNr.charAt(i);
-            if (c < '0' && c > '9') {
+            if (c < '0' || c > '9') {
                 return false;
             }
         }
