@@ -21,7 +21,7 @@ public class ValidateSapNumber {
     // 12345 false
     // a123456 false
     // 1234567 false
-    private static boolean validSapNr(String sapNr) {
+    private static boolean isValidSapNr(String sapNr) {
         if (sapNr.length() != 6) {
             return false;
         }
