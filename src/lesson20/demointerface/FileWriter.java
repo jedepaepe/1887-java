@@ -13,7 +13,7 @@ public class FileWriter implements IWriter {
 
     @Override
     public void write(String message) {
-        try (PrintWriter printWriter = new PrintWriter(new File(fileName))) {
+        try (PrintWriter printWriter = new PrintWriter(fileName)) {
             printWriter.println(message);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
