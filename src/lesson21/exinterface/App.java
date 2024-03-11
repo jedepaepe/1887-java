@@ -1,7 +1,5 @@
 package lesson21.exinterface;
 
-import lesson13.Rectangle;
-
 import java.util.Scanner;
 
 public class App {
